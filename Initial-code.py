@@ -6,10 +6,8 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.datasets import make_classification
 
 # Load dataset from uploaded CSV file
-from google.colab import files
 
 # Upload the CSV file
-uploaded = files.upload()
 
 # Assuming the uploaded file is named 'datasets-AI-DGOA.csv'
 df = pd.read_csv('datasets-AI-DGOA.csv')
